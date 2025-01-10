@@ -1,0 +1,16 @@
+<?php
+
+$numero = 7;
+
+$tabuada = array();
+
+
+for ($i = 1; $i <= 10; $i++) {
+    $tabuada[$i] = $numero * $i;
+}
+
+echo "Tabuada do $numero:\n";
+for ($i = 1; $i <= 10; $i++) {
+    echo "$numero x $i = " . $tabuada[$i] . "\n";
+}
+?>
